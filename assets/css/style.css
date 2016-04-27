@@ -1,0 +1,397 @@
+body, html {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family:'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#mainname {
+	font-size: 50px;
+	letter-spacing: 10px;
+    display:inline-block;
+    -webkit-transform:scale(1,1.2); /* Safari and Chrome */
+    -moz-transform:scale(1,1.2); /* Firefox */
+    -ms-transform:scale(1,1.2); /* IE 9 */
+    -o-transform:scale(1,1.2); /* Opera */
+    transform:scale(1,1.2); /* W3C */
+
+}
+
+h2 {
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-style: italic;
+	color: white;
+}
+
+h3 {
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+#background {
+	background: url("../img/bluebackground.jpg");
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#header-button {
+	width: 40px;
+	position: fixed;
+	left: 10px;
+	top: 15px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+#header {
+	z-index: 10;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	color: white;
+	background: rgba(100, 100, 100, 0.3);
+}
+
+.template {
+	margin: 0px auto;
+	width: 100%;
+	height: 70vh;
+}
+
+.navigation {
+	display: inline-block;
+	width: 50px;
+    height: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    position: relative;
+    left: 1200px;
+}
+
+.button {
+	width: 100px;
+    height: 40px;
+	background: rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    color: white;
+    border: none;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 200;
+    transition: 0.5s;
+}
+
+.button:hover {
+	background: rgba(150, 150, 150, 0.5);
+}
+
+#splash {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	color: white;
+	margin: 0px auto;
+}
+
+#propic {
+	width: 300px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 100;
+	left: 950px;
+	top: 300px;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#splashheading {
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	font-size: 40px;
+}
+
+#introduction {
+	width: 100%;
+	height: 100%;
+	background: rgba(220, 220, 220, 0.9);
+	margin: 0px auto;
+}
+
+#scrolldown-dark {
+	z-index: 100;
+	position: relative;
+	top: 5%;
+	left: 95%;
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#scrolldown-dark img {
+	position: relative;
+	width: 50px;
+	cursor: pointer;
+	filter: brightness(0%);
+	-webkit-filter: brightness(0%);
+	-moz-filter: brightness(0%);
+	-o-filter: brightness(0%);
+	-ms-filter: brightness(0%);
+}
+
+#scrollup-dark {
+	z-index: 100;
+	position: relative;
+	top: 45%;
+	left: 95%;
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#scrollup-dark img {
+	position: relative;
+	width: 50px;
+	filter: brightness(0%);
+	-webkit-filter: brightness(0%);
+	-moz-filter: brightness(0%);
+	-o-filter: brightness(0%);
+	-ms-filter: brightness(0%);
+}
+
+#scrolldown-two {
+	z-index: 100;
+	position: relative;
+	top: 5%;
+	left: 95%;
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#scrolldown-two img {
+	position: relative;
+	width: 50px;
+	filter: brightness(0%);
+	-webkit-filter: brightness(0%);
+	-moz-filter: brightness(0%);
+	-o-filter: brightness(0%);
+	-ms-filter: brightness(0%);
+}
+
+#scrolldown {
+	z-index: 100;
+	position: relative;
+	top: 5%;
+	left: 95%;
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#scrolldown img {
+	width: 50px;
+	margin: 0px;
+}
+
+#introbox {
+	position: relative;
+	padding: 50px;
+	width: 65%;
+	font-size: 17px;
+	text-align: justify;
+	padding-top: 10px;
+	line-height: 300%;
+	top: -100px;
+}
+
+.sectionhead {
+	width: 100%;
+	font-style: normal;
+	font-size: 40px;
+	padding-top: 50px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+}
+
+.sectionhead img {
+	width: 250px;
+	margin: 0px auto;
+	display: block;
+	position: relative;
+	letter-spacing: 2px;
+	top: -20px;
+}
+
+#dark {
+	color: white;
+}
+
+#project-list {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.project-thumbnail {
+	float: left;
+	position: relative;
+	margin-left: 40px;
+	margin-right: 40px;
+	left: 295px;
+	top: -60px;
+	width: 250px;
+	height: 300px;
+	background: rgba(220, 220, 220, 0.9);
+	border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.project-thumbnail:hover {
+	background: rgba(50, 50, 50, 0.95);
+}
+
+.thumbnail-pic {
+	position: relative;
+	width: 220px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 100%;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.thumbnail-label {
+	position: relative;
+	text-align: center;
+	font-style: bold;
+	color: white;
+	letter-spacing: 1px;
+	top: 10px;
+	width: 250px;
+	height: 30px;
+}
+
+#contact {
+	width: 100%;
+	height: 100%;
+	background: rgba(220, 220, 220, 0.9);
+	margin: 0px auto;
+}
+
+#contact-content {
+	position: relative;
+	margin: 0px;
+	left: 300px;
+	top: -110px;
+	width: 600px;
+	height: 370px;
+}
+
+#talktome {
+	width: 500px;
+	height: 50px;
+	margin: 0;
+	position: relative;
+	top: -20px;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+#contact-box {
+	width: 525px;
+	height: 300px;
+	position: relative;
+	top: -40px;
+	background: rgba(0, 102, 255, 0.3);
+}
+
+#box-content {
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+.contactfield {
+	width: 470px;
+}
+
+#contactbutton {
+	background-color: rgba(50, 50, 50, 0.3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    transition: 0.5s;
+}
+
+#contactbutton:hover {
+	background-color: rgba(200, 200, 200, 0.9);
+	color: black;
+}
+
+#logo-collection {
+	position: relative;
+	width: 150px;
+	height: 300px;
+	padding: 0px;
+	border: none; 
+	margin: 0px;
+	left: 550px;
+	top: -330px;
+}
+
+#fblogo {
+	width: 50px;
+	margin: 5px;
+}
+
+#githublogo {
+	width: 50px;
+	margin: 5px;
+}
+
+#linkedinlogo {
+	width: 50px;
+	margin: 5px;
+}
+
+#gmaillogo {
+	width: 50px;
+	margin: 5px;
+}

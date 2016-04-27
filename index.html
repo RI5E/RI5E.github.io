@@ -1,5 +1,156 @@
 <html>
+	<head>
+		<title>WDD Final Project</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+ 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+        <script src = "assets/js/script.js"></script>
+	</head>
 	<body>
-		testing testing 1234
+        <img id = "header-button" src = "assets/img/headerbutton.png">
+		<div id = "header">
+        	<div class = "navigation">
+        		<input id = "introscroll" type = "button" class = "button" value = "introduction"> 
+        	</div>
+
+        	<div class = "navigation">
+        		<input id = "projectscroll" type = "button" class = "button" value = "projects"> 
+        	</div>
+        	
+        	<div class = "navigation">
+        		<input id = "contactscroll" type = "button" class = "button" value = "contact"> 
+        	</div>
+
+		</div>
+
+		<div class = "template">
+			<div id = "splash">
+				<div id = "splashheading">
+					<div id = "mainname">MICHAEL FAN</div>
+					<h2>Double Major in CS/Economics</h2>
+					<h3>Class of 2019</h3>
+				</div>
+			</div>
+		</div>
+		
+        <div id = "propic container">
+            <img id = "propic" src = "assets/img/propic.jpg">
+        </div>
+
+		<div class = "template">
+			<div id = "introduction">
+                <div id = "scrolldown-dark">
+                    <img src = "assets/img/anotherdownarrow.png">
+                </div>
+                <div class = "sectionhead">
+                    ABOUT ME
+                    <img src = "assets/img/divider.jpg">
+                </div>
+                <div id = "introbox">
+				    <p>Hello! I am a freshman currently studying CS and Economics at UC Berkeley. I am a tech enthusiast who is passionate about using new technology to solve consumer problems and optimize consumer experiences. My previous work include particle physics research at the University of Maryland and algorithmn contributions to the National Library of Medicine's OPENi search engine. Aside from my interest in coding and the economy, I am an avid basketball and badminton fan.</p>
+                </div>
+			</div>
+		</div>
+
+		<div class = "template">
+            <div id = "project-list">
+                <div id = "scrolldown">
+                    <img src = "assets/img/anotherdownarrow.png">
+                </div>
+                
+                <div class = "sectionhead">
+                    <div id = "dark">
+                        PROJECTS
+                        <img src = "assets/img/divider.jpg">
+                    </div>
+                </div>
+                
+                <div class = "project-thumbnail" id = "strailsthumb">
+                    <img class = "thumbnail-pic" src = "assets/img/strails.jpg">
+                    <div class = "thumbnail-label" id = "strailslabel">
+                        STrails
+                    </div>
+                </div>
+                <div class = "project-thumbnail" id = "editorthumb">
+                    <img class = "thumbnail-pic" src = "assets/img/texteditor.png">
+                    <div class = "thumbnail-label" id = "editorlabel">
+                        Text Editor
+                    </div>
+                </div>
+                <div class = "project-thumbnail" id = "pivotthumb">
+                    <img class = "thumbnail-pic" src = "assets/img/pivotframeextraction.jpg">
+                    <div class = "thumbnail-label" id = "pivotframelabel">
+                        Pivot Extraction Frame
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       <div class = "template">
+            <div id = "contact">
+                <div id = "scrolldown-two">
+                    <img src = "assets/img/anotherdownarrow.png">
+                </div>
+                <div class = "sectionhead">
+                    CONTACT
+                    <img src = "assets/img/divider.jpg">
+                </div>
+                <div id = "scrollup-dark">
+                    <img src = "assets/img/arrowup.png">
+                </div>
+                
+                <div id = "contact-content">
+                    <div id = "talktome">
+                        Talk to me!
+                    </div>
+                
+                    <div id = "contact-box">
+                        <div id = "box-content">
+                            First Name:
+                            <br>
+                            <input class = "contactfield" type = "text">
+                            <br>
+                            Last Name:
+                            <br>
+                            <input class = "contactfield" type = "text">
+                            <br>
+                            Email:
+                            <br>
+                            <input class = "contactfield" type="email" name="usremail">
+                            <br>
+                            <br>
+                            <textarea rows="5" cols="64">
+                            </textarea>
+                            <br>
+                            <input id = "contactbutton" type = "button" value = "submit">
+                        </div>
+                    </div>
+
+                    <div id = "logo-collection">
+                        <a href = "https://www.facebook.com/michaelfanq.97">
+                            <img border="0" alt="Facebook" id = "fblogo" src = "assets/img/fblogo.png">
+                        </a>
+                        <br>
+                        <a href = "https://github.com/RI5E">
+                            <img border="0" alt="GitHub" id = "githublogo" src = "assets/img/githublogo.png">
+                        </a>
+                        <br>
+                        <a href = "https://www.linkedin.com/in/michaelfanq">
+                            <img border="0" alt="LinkedIn" id = "linkedinlogo" src = "assets/img/linkedinlogo.png">
+                        </a>
+                        <br>
+                        <img id = "gmaillogo" src = "assets/img/gmaillogo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div id = "background"></div>
 	</body>
 </html>
